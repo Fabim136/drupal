@@ -1,0 +1,5 @@
+name: Fabiano Junior
+description: Example for manual model creation
+package: Intensival drupal
+type: module
+core_version_requirement: ^9.2 || ^10
