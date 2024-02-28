@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '70f273d24a5dbc1cc92d2445327910cbaa152961',
         'name' => 'drupal/recommended-project',
         'dev' => true,
     ),
@@ -152,7 +152,7 @@
             'install_path' => __DIR__ . '/../doctrine/common',
             'aliases' => array(),
             'reference' => '8b5e5650391f851ed58910b3e3d48a71062eeced',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'doctrine/deprecations' => array(
             'pretty_version' => '1.1.3',
@@ -170,7 +170,7 @@
             'install_path' => __DIR__ . '/../doctrine/event-manager',
             'aliases' => array(),
             'reference' => '750671534e0241a7c50ea5b43f67e23eb5c96f32',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'doctrine/lexer' => array(
             'pretty_version' => '2.1.1',
@@ -188,7 +188,7 @@
             'install_path' => __DIR__ . '/../doctrine/persistence',
             'aliases' => array(),
             'reference' => '63fee8c33bef740db6730eb2a750cd3da6495603',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'drupal/admin_toolbar' => array(
             'pretty_version' => '3.4.2',
@@ -379,6 +379,15 @@
                 0 => '10.2.3',
             ),
         ),
+        'drupal/dev_mode' => array(
+            'pretty_version' => '2.6.0',
+            'version' => '2.6.0.0',
+            'type' => 'drupal-module',
+            'install_path' => __DIR__ . '/../../web/modules/contrib/dev_mode',
+            'aliases' => array(),
+            'reference' => '8.x-2.6',
+            'dev_requirement' => true,
+        ),
         'drupal/devel' => array(
             'pretty_version' => '5.1.2',
             'version' => '5.1.2.0',
@@ -386,15 +395,15 @@
             'install_path' => __DIR__ . '/../../web/modules/contrib/devel',
             'aliases' => array(),
             'reference' => '5.1.2',
-            'dev_requirement' => true,
+            'dev_requirement' => false,
         ),
         'drupal/recommended-project' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '70f273d24a5dbc1cc92d2445327910cbaa152961',
             'dev_requirement' => false,
         ),
         'drush/drush' => array(

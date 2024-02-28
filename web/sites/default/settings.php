@@ -895,4 +895,9 @@ $databases['default']['default'] = array (
 );
 $settings['config_sync_directory'] = '../config/sync';
 
-$settings['file_private_path'] = '../private/files';
+$settings['file_private_path'] = '../private/files';/**
+ * Development mode settings.
+ */
+if (file_exists($app_root . '/modules/contrib/dev_mode/settings.dev_mode.php')) {
+  include $app_root . '/modules/contrib/dev_mode/settings.dev_mode.php';
+}
