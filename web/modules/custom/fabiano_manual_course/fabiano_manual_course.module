@@ -4,7 +4,8 @@
  *Implements hookFORM ID alter ();
  */
 
-function  fabiano_node_article_from_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function  fabiano_node_article_from_node_article_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+    $form['fabiano'] = 'anything';
     devel_dump ($form, 'form dump');
     devel_dump ($form_state, 'form_state dump');
     devel_dump ($form_id, 'form_id dump' );
@@ -30,4 +31,45 @@ function  fabiano_node_article_from_alter(&$form, \Drupal\Core\Form\FormStateInt
 
   }
 
-  hook_pre
+/*
+Implements hooks pre-process
+*/
+
+  function fabiano_manual_course_preprocess(&$variables, $hook) {
+
+  // devel_dump($variables, 'dump variables');
+  // devel_dump($hook, 'dump hook');
+  //  die();
+
+/*
+    static $hooks;
+
+    // Add contextual links to the variables, if the user has permission.
+    if (!\Drupal::currentUser()
+      ->hasPermission('access contextual links')) {
+      return;
+    }
+    if (!isset($hooks)) {
+      $hooks = \Drupal::service('theme.registry')
+        ->get();
+    }
+
+    // Determine the primary theme function argument.
+    if (isset($hooks[$hook]['variables'])) {
+      $keys = array_keys($hooks[$hook]['variables']);
+      $key = $keys[0];
+    }
+    else {
+      $key = $hooks[$hook]['render element'];
+    }
+    if (isset($variables[$key])) {
+      $element = $variables[$key];
+    }
+    if (isset($element) && is_array($element) && !empty($element['#contextual_links'])) {
+      $variables['title_suffix']['contextual_links'] = contextual_links_view($element);
+      if (!empty($variables['title_suffix']['contextual_links'])) {
+        $variables['attributes']['class'][] = 'contextual-links-region';
+      }
+      */
+
+    }
