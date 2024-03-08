@@ -1,0 +1,5 @@
+name: 'Fabiano Drush Course'
+type: module
+description: 'Example for drush generated module.'
+package: Intensivo Drupal
+core_version_requirement: ^10

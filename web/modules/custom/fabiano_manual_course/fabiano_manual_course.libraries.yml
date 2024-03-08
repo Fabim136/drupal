@@ -1,0 +1,11 @@
+fabiano_manual_course.improve:
+  js:
+    js/fabiano-manual-course.js: {}
+  dependencies:
+    - core/drupal
+
+fabiano_manual_course.improve:
+  js:
+    js/fabiano-manual-course.js: {}
+  dependencies:
+    - core/drupal
