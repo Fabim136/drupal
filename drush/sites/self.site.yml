@@ -1,0 +1,6 @@
+local:
+  host: landodrupal_site.lndo.site
+  user: www-data
+  root: /app/web
+  uri: http://landodrupal_site.lndo.site
+

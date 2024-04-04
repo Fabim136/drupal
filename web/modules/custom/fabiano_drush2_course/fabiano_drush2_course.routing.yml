@@ -1,0 +1,7 @@
+fabiano_drush2_course.example:
+  path: '/fabiano-drush2-course/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\fabiano_drush2_course\Controller\FabianoDrush2CourseController'
+  requirements:
+    _permission: 'access content'

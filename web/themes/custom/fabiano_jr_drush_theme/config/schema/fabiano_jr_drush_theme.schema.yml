@@ -1,0 +1,12 @@
+# Schema for the configuration files of the Fabiano_jr Drush Theme theme.
+
+fabiano_jr_drush_theme.settings:
+  type: theme_settings
+  label: 'Fabiano_jr Drush Theme settings'
+  mapping:
+    example:
+      type: string
+      label: Example
+    another:
+      type: string
+      label: Another Example

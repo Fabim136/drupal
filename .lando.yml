@@ -2,3 +2,10 @@ name: landodrupal_site
 recipe: drupal10
 config:
   webroot: web
+tooling:
+  drush:
+    service: appserver
+    cmd: /bin/sh -c "drush --root=$LANDO_WEBROOT --uri=https://$LANDO_APP_NAME.lndo.site $@" "$0"
+    # Uncomment and configure environment variables if needed
+    # env:
+    #   DRUSH_OPTIONS_URI: "http://landodrupal_site.lndo.site/"

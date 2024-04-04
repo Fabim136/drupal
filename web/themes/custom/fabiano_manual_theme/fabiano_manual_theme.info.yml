@@ -1,0 +1,6 @@
+name: Fabim136 theme
+description: Example for manual theme creation.
+package: Intensivo Drupal
+type: theme
+core_version_requirement: ^9.2 || ^10
+base theme: false

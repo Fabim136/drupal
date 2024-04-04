@@ -1,0 +1,44 @@
+<?php declare(strict_types = 1);
+
+/**
+ * @file
+ * Functions to support theming in the Fabiano_jr Drush Theme theme.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for html.html.twig.
+ */
+function fabiano_jr_drush_theme_preprocess_html(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for page.html.twig.
+ */
+function fabiano_jr_drush_theme_preprocess_page(array &$variables): void {
+
+}
+
+/**
+ * Implements hook_preprocess_HOOK() for node.html.twig.
+ */
+function fabiano_jr_drush_theme_preprocess_node(array &$variables): void {
+
+}
+// Example for get configuration
+$config = \Drupal::config('fabiano_jr_drush_theme.settings');
+//Will print 'Hello'.
+Print$config -> get('example');
+//Will print'en';
+print $config -> get('another');
+
+/**
+ *Implements hookt theme sugestions Hook();
+ */
+// function node_theme_suggestions_node(array $variables) {
+    function fabiano_jr_drush_theme_suggestions_node(array $variables) {
+        $suggestions = [];
+        $suggestions[] = 'hookname__' . $variables['elements']['#langcode'];
+        $suggestions[] = 'fabiano_node';
+        return $suggestions;
+      }
