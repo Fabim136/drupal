@@ -1,0 +1,22 @@
+uuid: d5bb6ebe-7007-4fe9-96c4-138fb953737d
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: fabiano_manual_theme_powered
+theme: fabiano_manual_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Desenvolvido com Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

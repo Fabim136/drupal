@@ -1,0 +1,22 @@
+uuid: ee3dbdc7-e5e2-4782-9600-d0aca9c7d974
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: fabiano_manual_theme_primary_local_tasks
+theme: fabiano_manual_theme
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas primárias'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

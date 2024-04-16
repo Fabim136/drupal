@@ -1,0 +1,22 @@
+uuid: 2c54fc20-71a5-4d7d-a506-0ca7b6565e74
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: On84TN9VslTgsJliQyUFoJ42BaVvzH9Uj8f4rfY1Mg0
+id: fabiano_b5_theme_help
+theme: fabiano_b5_theme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

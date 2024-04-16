@@ -1,0 +1,22 @@
+uuid: 018a647d-9d5c-4718-ba2b-4ee18072c3de
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: fabiano_manual_theme_help
+theme: fabiano_manual_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ajuda
+  label_display: '0'
+  provider: help
+visibility: {  }

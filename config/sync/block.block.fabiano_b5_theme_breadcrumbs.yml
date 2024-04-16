@@ -1,0 +1,22 @@
+uuid: dcf626b9-0317-4e50-b27d-3a42b7356a90
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: '-0R673GINjQhZw4AmRS1CZ3AMuR3jXG7WTU160-Jx2A'
+id: fabiano_b5_theme_breadcrumbs
+theme: fabiano_b5_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

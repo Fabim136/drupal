@@ -1,0 +1,22 @@
+uuid: 552ef810-43c7-4a09-8a7d-262b8c852271
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: mFwk3ivgH9b1OSXkQTBq6M0TSsbessl8uYi91cHF_pQ
+id: fabiano_b5_theme_messages
+theme: fabiano_b5_theme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c8592706-7da0-43d8-9ff5-10c03361f7d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: aSJCr-61NC1bBoc5BQvjGY29p_KlAex8F1qb7MbsVoc
+id: fabiano_b5_theme_content
+theme: fabiano_b5_theme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

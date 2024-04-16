@@ -1,0 +1,22 @@
+uuid: 46bcbe9b-1704-4543-a46e-a964b01c59f2
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: fabiano_manual_theme_breadcrumbs
+theme: fabiano_manual_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

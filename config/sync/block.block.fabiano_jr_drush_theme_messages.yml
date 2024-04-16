@@ -1,0 +1,22 @@
+uuid: 6a6970dd-571b-4ce1-bc39-cad1ee359dea
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_jr_drush_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: fabiano_jr_drush_theme_messages
+theme: fabiano_jr_drush_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensagens de status'
+  label_display: '0'
+  provider: system
+visibility: {  }

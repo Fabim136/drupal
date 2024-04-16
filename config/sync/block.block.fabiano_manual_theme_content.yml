@@ -1,0 +1,22 @@
+uuid: 7493608b-9130-470a-a70f-03de37bf3880
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: fabiano_manual_theme_content
+theme: fabiano_manual_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Conteúdo da página principal'
+  label_display: '0'
+  provider: system
+visibility: {  }

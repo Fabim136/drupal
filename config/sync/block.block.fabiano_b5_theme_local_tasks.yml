@@ -1,0 +1,22 @@
+uuid: cd546dcd-ba14-46ce-8671-9ae82a1f79f7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: GnnXmzutLSNmsXskPaU-6WNvnoyGcP0n0BRJjIWQ7-0
+id: fabiano_b5_theme_local_tasks
+theme: fabiano_b5_theme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

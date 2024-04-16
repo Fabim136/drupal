@@ -1,0 +1,14 @@
+Drush Commandline Tool [32m12.4.3.0[39m
+
+Run `drush help [command]` to view command-specific help.  Run `drush topic` to read even more documentation.
+
+Available commands:                                                                                                                   
+[33mconfig:[39m                                                                                                                               
+  config:delete (cdel) Delete a configuration key, or a whole object(s).                                                              
+  config:edit (cedit)  Open a config file in a text editor. Edits are imported after closing editor.                                  
+  config:export (cex)  Export Drupal configuration to a directory.                                                                    
+  config:get (cget)    Display a config value, or a whole configuration object.                                                       
+  config:import (cim)  Import config from the config directory.                                                                       
+  config:pull (cpull)  Export and transfer config from one environment to another.                                                    
+  config:set (cset)    Save a config value directly. Does not perform a config import.                                                
+  config:status (cst)  Display status of configuration (differences between the filesystem configuration and database configuration). 

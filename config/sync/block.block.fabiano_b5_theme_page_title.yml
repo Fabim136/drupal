@@ -1,0 +1,20 @@
+uuid: 2416f33e-85d9-497f-b75d-da4632d95427
+langcode: en
+status: true
+dependencies:
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: 4NAmeO5iSbz95C-wHHSQNmKYN4j3f4LWXFDsXoMhWoc
+id: fabiano_b5_theme_page_title
+theme: fabiano_b5_theme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

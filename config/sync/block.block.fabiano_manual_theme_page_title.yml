@@ -1,0 +1,20 @@
+uuid: f29b873e-70fc-4e68-94fa-b216f022861b
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fabiano_manual_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: fabiano_manual_theme_page_title
+theme: fabiano_manual_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  label_display: '0'
+  provider: core
+visibility: {  }

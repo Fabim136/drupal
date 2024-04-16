@@ -1,0 +1,22 @@
+uuid: 912e9fcf-331a-454e-ab48-69d4fb43d742
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: HQ855Nw3fGaJMEcB3AwNSY6paaH2Xez3ICQXZe9I5BY
+id: fabiano_b5_theme_powered_by_drupal
+theme: fabiano_b5_theme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

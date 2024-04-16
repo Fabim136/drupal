@@ -1,0 +1,22 @@
+uuid: eb272a6c-8a0f-438e-b19f-b626a352fab7
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fabiano_jr_drush_theme
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: fabiano_jr_drush_theme_secondary_local_tasks
+theme: fabiano_jr_drush_theme
+region: highlighted
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Abas secundárias'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

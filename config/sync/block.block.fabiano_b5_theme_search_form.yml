@@ -1,0 +1,23 @@
+uuid: 883e3f2f-05c4-4ecf-ae9e-c081d91ac505
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - fabiano_b5_theme
+_core:
+  default_config_hash: k0-pNrisbWi9_tO6oUm-fUqQSca0xYjf3W-004Dpa8g
+id: fabiano_b5_theme_search_form
+theme: fabiano_b5_theme
+region: nav_additional
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

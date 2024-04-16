@@ -1,0 +1,20 @@
+uuid: 152605df-aa5c-4939-8d56-4b06f4491269
+langcode: pt-br
+status: true
+dependencies:
+  theme:
+    - fabiano_jr_drush_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: fabiano_jr_drush_theme_page_title
+theme: fabiano_jr_drush_theme
+region: content_above
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título da página'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 5d30cf1c-1194-4635-a41b-690fa4fde8fc
+langcode: pt-br
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - fabiano_jr_drush_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: fabiano_jr_drush_theme_search_form_wide
+theme: fabiano_jr_drush_theme
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Formulário de busca (largo)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }
